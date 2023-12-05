@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="ProductURL" method="post">
+            
+            <table>
+                <tr>
+                    <td>productName</td>
+                    <td><input type="text" name="pname" ></td>
+                </tr>
+                <tr>
+                    <td>supplier</td>
+                    <td><select name="supplier" >
+                            <option value="1">Exotic Liquids</option>
+                            <option value="2">New Orleans Cajun Delights</option>
+                            <option value="3">Grandma Kelly's Homestead</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Category</td>
+                    <td><select name="Category" >
+                            <option value="1">Beverages</option>
+                            <option value="2">Condiments</option>
+                            <option value="3">Confections</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>quantityPerUnit</td>
+                    <td><input type="text" name="quantityPerUnit" ></td>
+                </tr>
+                <tr>
+                    <td>unitPrice</td>
+                    <td><input type="text" name="unitPrice" ></td>
+                </tr>
+                <tr>
+                    <td>unitsInStock</td>
+                    <td><input type="text" name="unitsInStock" ></td>
+                </tr>
+                <tr>
+                    <td>unitsOnOrder</td>
+                    <td><input type="text" name="unitsOnOrder" ></td>
+                </tr>
+                <tr>
+                    <td>reorderLevel</td>
+                    <td><input type="text" name="reorderLevel" ></td>
+                </tr>
+                <tr>
+                    <td>discontinued</td>
+                    <td><input type="radio" name="discontinued" value="1" checked>
+                        continue
+                        <input type="radio" name="discontinued" value="0">
+                        disContinue
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Addproduct" name="submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+            <input type="hidden" name="service" value="insertproduct">
+        </form>
+    </body>
+</html>

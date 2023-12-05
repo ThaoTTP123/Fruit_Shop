@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="EmployeeURL">
+            <table>     
+                <tr>
+                    <td>LastName</td>
+                    <td><input type="text" name="LastName"></td>
+                </tr>
+                <tr>
+                    <td>FirstName</td>
+                    <td><input type="text" name="FirstName"></td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td><input type="text" name="Title"></td>
+                </tr>
+                <tr>
+                    <td>TitleOfCourtesy</td>
+                    <td><input type="text" name="TitleOfCourtesy"></td>
+                </tr>
+                <tr>
+                    <td>BirthDate</td>
+                    <td><input type="text" name="BirthDate"></td>
+                </tr>
+                <tr>
+                    <td>HireDate</td>
+                    <td><input type="text" name="HireDate"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><input type="text" name="Address"></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td><input type="text" name="City"></td>
+                </tr>
+                <tr>
+                    <td>Region</td>
+                    <td><input type="text" name="Region"></td>
+                </tr>
+                <tr>
+                    <td>PostalCode</td>
+                    <td><input type="text" name="PostalCode"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input type="text" name="Country"></td>
+                </tr>
+                <tr>
+                    <td>HomePhone</td>
+                    <td><input type="text" name="HomePhone"></td>
+                </tr>
+                <tr>
+                    <td>Extension</td>
+                    <td><input type="text" name="Extension"></td>
+                </tr>
+                <tr>
+                    <td>Photo</td>
+                    <td><input type="text" name="Photo"></td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td><input type="text" name="Notes"></td>
+                </tr>
+                <tr>
+                    <td>ReportsTo</td>
+                    <td><select name="ReportsTo">
+                            <option value="2">Vice President, Sales</option>
+                            <option value="5">Sales Manager</option>
+                            <option value="">Null</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>PhotoPath</td>
+                    <td><input type="text" name="PhotoPath"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add Employee" name="submit"></td>
+                    <td><input type="reset" value="Reset"></td>
+                </tr>
+            </table>
+            <input type="hidden" name="service" value="insertemployee">
+        </form>
+    </body>
+</html>

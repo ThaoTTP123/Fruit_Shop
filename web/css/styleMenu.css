@@ -1,0 +1,22 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 30, 2023, 8:05:31 PM
+    Author     : lenovo
+*/
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.menu li:hover {
+    color: blue;
+}
